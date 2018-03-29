@@ -1,0 +1,9 @@
+{
+    "template": "conversation_view",
+    "description": "Add \"Last Read Time\" to every participant row for invalid user",
+    "execution_order": 10,
+    "enabled": true,
+    "action": "str_replace",
+    "find": "<div class=\"contentRow-main\">\n\t\t\t\t\t\t\t\t\t{{ phrase('unknown_member') }}",
+    "replace": "$0\n<xf:include template=\"conversationLastReadTime_conversation_view\" />"
+}

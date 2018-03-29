@@ -1,0 +1,20 @@
+{
+    "conversationLastReadTime_last_read_time.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "30ecc63bafc6acd347fb23ec2c438a2f"
+    },
+    "conversationLastReadTime_never.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "6e7b34fa59e1bd229b207892956dc41c"
+    },
+    "permission.conversation_viewLastReadTime.txt": {
+        "global_cache": false,
+        "version_id": 1000070,
+        "version_string": "1.0.0",
+        "hash": "0bb53aa1264c35d63c4d4a5a001161d8"
+    }
+}
