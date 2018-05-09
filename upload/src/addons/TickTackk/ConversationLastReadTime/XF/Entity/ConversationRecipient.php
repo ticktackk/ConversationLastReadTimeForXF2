@@ -2,6 +2,11 @@
 
 namespace TickTackk\ConversationLastReadTime\XF\Entity;
 
+/**
+ * Class ConversationRecipient
+ *
+ * @package TickTackk\ConversationLastReadTime
+ */
 class ConversationRecipient extends XFCP_ConversationRecipient
 {
     /**

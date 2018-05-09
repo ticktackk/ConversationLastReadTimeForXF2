@@ -2,6 +2,11 @@
 
 namespace TickTackk\ConversationLastReadTime\XF\Entity;
 
+/**
+ * Class User
+ *
+ * @package TickTackk\ConversationLastReadTime
+ */
 class User extends XFCP_User
 {
     /**
