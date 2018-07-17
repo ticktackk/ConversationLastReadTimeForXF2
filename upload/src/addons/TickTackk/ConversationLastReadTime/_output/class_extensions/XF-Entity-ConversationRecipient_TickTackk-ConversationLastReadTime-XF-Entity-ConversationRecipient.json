@@ -1,6 +1,0 @@
-{
-    "from_class": "XF\\Entity\\ConversationRecipient",
-    "to_class": "TickTackk\\ConversationLastReadTime\\XF\\Entity\\ConversationRecipient",
-    "execute_order": 10,
-    "active": true
-}
