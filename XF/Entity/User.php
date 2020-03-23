@@ -2,6 +2,8 @@
 
 namespace TickTackk\ConversationLastReadTime\XF\Entity;
 
+use XF\Phrase;
+
 /**
  * Class User
  *
@@ -10,17 +12,17 @@ namespace TickTackk\ConversationLastReadTime\XF\Entity;
 class User extends XFCP_User
 {
     /**
+     * @param Phrase|null $error
+     *
      * @return bool
      */
-    public function canViewConversationLastReadTime()
+    public function canViewConversationLastReadTime(Phrase &$error = null) : bool
     {
-        $visitor = \XF::visitor();
-
-        if (!$visitor->user_id)
+        if (!$this->user_id)
         {
             return false;
         }
 
-        return ($this->user_id && $this->hasPermission('conversation', 'viewLastReadTime'));
+        return $this->hasPermission('conversation', 'viewLastReadTime');
     }
 }

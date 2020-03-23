@@ -2,6 +2,9 @@
 
 namespace TickTackk\ConversationLastReadTime\XF\Entity;
 
+use TickTackk\ConversationLastReadTime\XF\Entity\User as ExtendedUserEntity;
+use XF\Phrase;
+
 /**
  * Class ConversationRecipient
  *
@@ -10,12 +13,14 @@ namespace TickTackk\ConversationLastReadTime\XF\Entity;
 class ConversationRecipient extends XFCP_ConversationRecipient
 {
     /**
+     * @param Phrase|null $error
+     *
      * @return bool
      */
-    public function canViewConversationLastReadTime()
+    public function canViewConversationLastReadTime(Phrase &$error = null) : bool
     {
-        /** @var \TickTackk\ConversationLastReadTime\XF\Entity\User $visitor */
+        /** @var ExtendedUserEntity $visitor */
         $visitor = \XF::visitor();
-        return $visitor->canViewConversationLastReadTime();
+        return $visitor->canViewConversationLastReadTime($error);
     }
 }
