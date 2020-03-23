@@ -1,5 +1,4 @@
-# ConversationLastReadTimeForXF2
-
+# Conversation Last Read Time For XenForo 2.1.7+
 This add-on adds "Last Read Date" next to each conversation participants.
 
 ## Permissions
