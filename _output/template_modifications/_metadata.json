@@ -1,8 +1,8 @@
 {
-    "public/conversation_view_convLastReadTime_invalid_user.json": {
+    "public/tckConversationLastReadTime_conversation_view_a.json": {
         "hash": "530f6ea1b8ea2a8db039de20cef1603c"
     },
-    "public/conversation_view_convLastReadTime_valid_user.json": {
+    "public/tckConversationLastReadTime_conversation_view_b.json": {
         "hash": "543d3f3c5eefb1101f035034dd93011c"
     }
 }
