@@ -1,6 +1,6 @@
 {
     "from_class": "XF\\Repository\\Conversation",
     "to_class": "TickTackk\\ConversationLastReadTime\\XF\\Repository\\Conversation",
-    "execute_order": 10,
+    "execute_order": 6313,
     "active": true
 }
