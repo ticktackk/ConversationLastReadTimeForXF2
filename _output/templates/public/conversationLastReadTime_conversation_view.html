@@ -1,7 +1,0 @@
-<xf:if is="$recipient.canViewConversationLastReadTime()">
-	<xf:if is="$recipient.last_read_date">
-		<div class="contentRow-minor">{{ phrase('conversationLastReadTime_last_read_time:') }} <xf:date time="{$recipient.last_read_date}" class="last-read-date" /></div>
-	<xf:else />
-		<div class="contentRow-minor">{{ phrase('conversationLastReadTime_last_read_time:') }} {{ phrase('conversationLastReadTime_never') }}</div>
-	</xf:if>
-</xf:if>
