@@ -1,8 +1,24 @@
-# Conversation Last Read Time For XenForo 2.1.7+
+Conversation Last Read Time for XenForo 2.1.7+
+==============================================
+
+Description
+-----------
+
 This add-on adds "Last Read Date" next to each conversation participants.
 
-## Permissions
-- "View last read time" under Admin > Groups & permissions > [Usergroup] > Conversation permissions
+Requirements
+------------
 
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+- PHP 7.3.0+
+
+Permissions
+-----------
+
+#### Conversation permissions
+
+- View last read time
+
+License
+-------
+
+This project is licensed under the MIT License - see the [LICENSE.md](https://github.com/ticktackk/ConversationLastReadTimeForXF2/blob/master/LICENSE.md) file for details.
