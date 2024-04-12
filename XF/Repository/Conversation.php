@@ -2,14 +2,7 @@
 
 namespace TickTackk\ConversationLastReadTime\XF\Repository;
 
-use XF\App as BaseApp;
 use XF\Entity\ConversationUser as ConversationUserEntity;
-use XF\Mvc\Entity\Finder;
-use XF\Mvc\Entity\Entity;
-use XF\Mvc\Entity\Repository;
-use XF\Service\AbstractService;
-use XF\Mvc\Entity\Manager as EntityManager;
-use XF\Job\Manager as JobManager;
 
 /**
  * Class Conversation
