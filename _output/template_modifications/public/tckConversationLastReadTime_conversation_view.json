@@ -1,0 +1,9 @@
+{
+    "template": "conversation_view",
+    "description": "Add \"Last Read Time\" to every participant row",
+    "execution_order": 6313,
+    "enabled": true,
+    "action": "preg_replace",
+    "find": "{(^\\s*<div class=\"contentRow-main.*?>.*?)(^\\s*<\\/div>$)}sm",
+    "replace": "$1\t\t\t\t\t\t\t\t\t<xf:if is=\"$recipient.canViewConversationLastReadTime()\">\n\t\t\t\t\t\t\t\t\t\t<xf:if is=\"$recipient.last_read_date\">\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"contentRow-minor\">{{ phrase('conversationLastReadTime_last_read_time:') }} <xf:date time=\"{$recipient.last_read_date}\" class=\"last-read-date\" /></div>\n\t\t\t\t\t\t\t\t\t\t\t<xf:else />\n\t\t\t\t\t\t\t\t\t\t\t<div class=\"contentRow-minor\">{{ phrase('conversationLastReadTime_last_read_time:') }} {{ phrase('conversationLastReadTime_never') }}</div>\n\t\t\t\t\t\t\t\t\t\t</xf:if>\n\t\t\t\t\t\t\t\t\t</xf:if>\n$2"
+}

@@ -1,9 +1,0 @@
-{
-    "template": "conversation_view",
-    "description": "Add \"Last Read Time\" to every participant row for valid user",
-    "execution_order": 6313,
-    "enabled": true,
-    "action": "str_replace",
-    "find": "<div class=\"contentRow-minor\"><xf:usertitle user=\"$recipient.User\" /></div>",
-    "replace": "$0\n<xf:include template=\"conversationLastReadTime_conversation_view\" />"
-}

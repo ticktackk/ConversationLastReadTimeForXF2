@@ -5,12 +5,7 @@ namespace TickTackk\ConversationLastReadTime\XF\Pub\Controller;
 use XF\Entity\ConversationUser as ConversationUserEntity;
 use XF\Mvc\ParameterBag;
 use XF\Mvc\Reply\AbstractReply;
-use XF\Mvc\Reply\View as ViewReply;
-use XF\Mvc\Reply\Redirect as RedirectReply;
-use XF\Mvc\Reply\Reroute as RerouteReply;
-use XF\Mvc\Reply\Message as MessageReply;
 use XF\Mvc\Reply\Exception as ExceptionReply;
-use XF\Mvc\Reply\Error as ErrorReply;
 use TickTackk\ConversationLastReadTime\XF\Repository\Conversation as ExtendedConversationRepo;
 
 /**
